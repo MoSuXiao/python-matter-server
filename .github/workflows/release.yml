@@ -39,6 +39,6 @@ jobs:
           platforms: linux/arm/v7
           file: Dockerfile
           tags: |-
-            ghcr.io/${{ github.repository_owner }}/python-matter-server:8.1.1
+            ghcr.io/mosuxiao/python-matter-server:8.1.1
           push: true
           build-args: "PYTHON_MATTER_SERVER=8.1.1"
